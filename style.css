@@ -338,16 +338,57 @@ footer form input{
    }
   
 
+
+   /* Proximas fechas */
+
+   .ticket{
+    display: inline-block;
+    text-align: center;
+  }
+
+
+   .ticket1{
+    display: inline-block;
+    text-align: center;
+    width: 576px;
+  }
+   .imagen-prox1{
+    margin: 10px 0px 10px 0px;
+    width: 574px;
+    height: 450px;
+    text-align: center;
+  }
+
+
+
+
    /* Tienda */
 
-}
+
+   .local1{
+    display: inline-block;
+    text-align: center;
+    width: 576px;
+  }
 
 
+  
+   .flex{
+    display: inline-block;
+    text-align: center;
+    
+  }
 
+  .tienda{
+    display: inline-block;
+    text-align: center;
+    
+  }
 
+  .carrito{
+    display: grid;
+    justify-content: center;
 
+   
+  }
 
-
-     
-
-       
