@@ -16,7 +16,7 @@ body {
 
 /* Inicio */
 
-ul{
+header nav ul{
    display: flex;
    justify-content: space-evenly;
    font-size: 1.4rem;
@@ -27,11 +27,6 @@ ul{
 header nav ul li{
    list-style: none;
    display: inline-block;
-}
-
-header nav ul li a{
-  color: white;
-  text-decoration: none;      
 }
 
 
@@ -52,17 +47,29 @@ header nav ul li a:hover{
 .video {
   display: flex;
   justify-content: space-between;
-  margin: 0 20px 40px 10px;
+  margin: 0px 30px 40px 30px;  
+}
+
+.contacto{
+  text-align: center;
+  margin: 0px 0px 30px;
+}
+
+.contacto2{
+  margin: 20px 10px 30px 10px
+}
+
+.seguinos {
+  background-color: rgb(184 158 183);
+  color: black;
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 60px 0px 30px 0px; 
+
 }
 
 
 
-
-
-
-div nav ul li a:hover{
- color: rgb(228 60 47); 
-}
 
 /* Bibliografia */
 
@@ -74,7 +81,10 @@ h1 {
 }	
 
 
-
+header nav ul li a{
+  color: white;
+  text-decoration: none;      
+}
 
 .texto-imagen{
   display: grid;
@@ -263,8 +273,8 @@ footer form input{
      color: black;
      padding: 10px 10px 10px 10px;
      
-     
   }
+}
 
  header nav ul{ 
   display: flex;
@@ -328,16 +338,58 @@ footer form input{
    }
   
 
+
+   /* Proximas fechas */
+
+   .ticket{
+    display: inline-block;
+    text-align: center;
+  }
+
+
+   .ticket1{
+    display: inline-block;
+    text-align: center;
+    width: 576px;
+  }
+   .imagen-prox1{
+    margin: 10px 0px 10px 0px;
+    width: 574px;
+    height: 450px;
+    text-align: center;
+  }
+
+
+
+
    /* Tienda */
 
-}
+
+   .local1{
+    display: inline-block;
+    text-align: center;
+    width: 576px;
+  }
 
 
+  
+   .flex{
+    display: inline-block;
+    text-align: center;
+    
+  }
 
+  .tienda{
+    display: inline-block;
+    text-align: center;
+    
+  }
 
+  .carrito{
+    display: grid;
+    justify-content: center;
 
+   
+  }
 
-
-     
-
-       
+        
