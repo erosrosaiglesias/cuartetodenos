@@ -264,7 +264,7 @@ footer form input{
 
   
 
-@media (max-width: 576px) {
+ @media (max-width: 576px) { 
 
   h1{
      display: block;
@@ -274,7 +274,7 @@ footer form input{
      padding: 10px 10px 10px 10px;
      
     }
-  }
+  
 
  header nav ul{ 
   display: flex;
@@ -391,4 +391,5 @@ footer form input{
 
    
   }
+}
 
