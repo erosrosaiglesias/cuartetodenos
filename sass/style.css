@@ -1,4 +1,147 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap");
+h1 {
+  text-align: center;
+  background-color: black;
+  padding: 30px 40px 50px 60px;
+  font-size: 2.7rem;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.texto-imagen {
+  display: grid;
+  grid-template-areas: "strong img" "strong p";
+  grid-template-columns: 700px auto;
+  grid-template-rows: 400px auto;
+  gap: 10px;
+}
+.texto-imagen .parrafo1 {
+  text-align: justify;
+  margin: 0px 10px 10px 10px;
+}
+.texto-imagen .parrafo2 {
+  text-align: justify;
+  grid-area: p;
+  margin: 0px 10px 10px;
+}
+.texto-imagen .imagen {
+  grid-area: img;
+}
+
+.imagen1 {
+  display: none;
+}
+
+h2 {
+  background-color: rgb(184, 158, 183);
+  color: black;
+  text-align: center;
+  font-size: 1.3rem;
+  margin: 60px 0px 30px 0px;
+}
+
+.disco {
+  display: grid;
+  grid-template-areas: "imagen1 imagen2 imagen3 imagen4" "imagen1 imagen2 imagen3 imagen4" "imagen1 imagen2 imagen3 imagen4" "imagen1 imagen2 imagen3 imagen4" "imagen1";
+  grid-template-columns: 350px 350px 350px 350px;
+  grid-template-rows: 350px 350px 350px 350px 350px;
+  gap: 10px;
+  justify-content: center;
+}
+
+.ticket1 {
+  display: flex;
+  justify-content: space-around;
+}
+.ticket1 .flex1 {
+  display: block;
+}
+.ticket1 .ticket {
+  text-align: left;
+}
+.ticket1 .imagen-prox {
+  text-align: center;
+}
+.ticket1 form select {
+  transition-duration: 0.5s;
+  padding: 10px 5px 10px 5px;
+  font-size: 1rem;
+  border-radius: 8px;
+  color: rgb(228, 60, 47);
+  border-bottom: rgb(228, 60, 47);
+}
+.ticket1 form select:hover {
+  background-color: rojocuarteto;
+  color: white;
+}
+
+.agosto {
+  margin: 5px 0px 5px;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+}
+
+.talles {
+  font-size: 1.2rem;
+}
+
+.local1 {
+  display: flex;
+  justify-content: space-around;
+}
+.local1 .flex {
+  display: block;
+  margin: 0 0 0 20px;
+}
+.local1 .tienda {
+  text-align: center;
+}
+.local1 form select {
+  transition-duration: 0.5s;
+  padding: 10px 5px 10px 5px;
+  font-size: 1rem;
+  border-radius: 8px;
+  color: rgb(228, 60, 47);
+  border-bottom: rgb(228, 60, 47);
+}
+.local1 form select:hover {
+  background-color: rgb(228, 60, 47);
+  color: white;
+}
+
+footer form input {
+  border: right 20px;
+  background-color: black;
+  color: white;
+  font-size: 1.2rem;
+  width: 10rem;
+  height: 10rem;
+}
+
+.carrito {
+  transition-duration: 0.5s;
+  padding: 20px 10px 20px 10px;
+  border-radius: 8px;
+  color: rgb(228, 60, 47);
+  border-bottom: rgb(228, 60, 47);
+  margin: 0 0 10px 20px;
+}
+.carrito .carrito:hover {
+  background-color: rgb(228, 60, 47);
+  color: white;
+}
+
+/* variable */
+/* Inicio */
 /* tipo de letra copiado de google https://fonts.google.com/ - selecciono la letra - familia seleccionada - importar - copio y pego style sin la etiqueta */
 * {
   margin: 0%;
@@ -12,7 +155,6 @@ body {
   color: white;
 }
 
-/* Inicio */
 header nav ul {
   display: flex;
   justify-content: space-evenly;
@@ -47,8 +189,7 @@ header nav ul li a:hover {
   text-align: center;
   margin: 0px 0px 30px;
 }
-
-.contacto2 {
+.contacto .contacto2 {
   margin: 20px 10px 30px 10px;
 }
 
@@ -58,150 +199,6 @@ header nav ul li a:hover {
   text-align: center;
   font-size: 1.2rem;
   margin: 60px 0px 30px 0px;
-}
-
-/* Bibliografia */
-h1 {
-  text-align: center;
-  background-color: black;
-  padding: 30px 40px 50px 60px;
-  font-size: 2.7rem;
-}
-
-header nav ul li a {
-  color: white;
-  text-decoration: none;
-}
-
-.texto-imagen {
-  display: grid;
-  grid-template-areas: "strong img" "strong p";
-  grid-template-columns: 700px auto;
-  grid-template-rows: 400px auto;
-  gap: 10px;
-}
-
-.parrafo1 {
-  text-align: justify;
-  margin: 0px 10px 10px 10px;
-}
-
-.parrafo2 {
-  text-align: justify;
-  grid-area: p;
-  margin: 0px 10px 10px;
-}
-
-.imagen {
-  grid-area: img;
-}
-
-.imagen1 {
-  display: none;
-}
-
-/* Discografia  */
-h2 {
-  background-color: rgb(184, 158, 183);
-  color: black;
-  text-align: center;
-  font-size: 1.3rem;
-  margin: 60px 0px 30px 0px;
-}
-
-.disco {
-  display: grid;
-  grid-template-areas: "imagen1 imagen2 imagen3 imagen4" "imagen1 imagen2 imagen3 imagen4" "imagen1 imagen2 imagen3 imagen4" "imagen1 imagen2 imagen3 imagen4" "imagen1";
-  grid-template-columns: 350px 350px 350px 350px;
-  grid-template-rows: 350px 350px 350px 350px 350px;
-  gap: 10px;
-  justify-content: center;
-}
-
-/* Proximas fechas */
-.ticket1 {
-  display: flex;
-  justify-content: space-around;
-}
-
-.flex1 {
-  display: block;
-}
-
-.ticket {
-  text-align: left;
-}
-
-.agosto {
-  margin: 5px 0px 5px;
-}
-
-/* Tienda */
-h3 {
-  font-size: 1.2rem;
-}
-
-h4 {
-  font-size: 1.2rem;
-}
-
-.talles {
-  font-size: 1.2rem;
-}
-
-.local1 {
-  display: flex;
-  justify-content: space-around;
-}
-
-.flex {
-  display: block;
-  margin: 0 0 0 20px;
-}
-
-.imagen-prox {
-  text-align: center;
-}
-
-form select {
-  transition-duration: 0.5s;
-  padding: 10px 5px 10px 5px;
-  font-size: 1rem;
-  border-radius: 8px;
-  color: rgb(228, 60, 47);
-  border-bottom: rgb(228, 60, 47);
-}
-
-form select:hover {
-  background-color: rgb(228, 60, 47);
-  color: white;
-}
-
-.tienda {
-  text-align: center;
-}
-
-footer form input {
-  border: right 20px;
-  background-color: black;
-  color: white;
-  font-size: 1.2rem;
-  width: 10rem;
-  height: 10rem;
-}
-
-.carrito {
-  transition-duration: 0.5s;
-  padding: 20px 10px 20px 10px;
-  border-radius: 8px;
-  color: rgb(228, 60, 47);
-  border-bottom: rgb(228, 60, 47);
-  margin: 0 0 10px 20px;
-}
-
-.carrito:hover {
-  background-color: rgb(228, 60, 47);
-  color: white;
 }
 
 /* MEDIA QUERIES */

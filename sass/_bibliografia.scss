@@ -1,0 +1,41 @@
+h1 {
+    text-align: center;
+    background-color: black;
+    padding: 30px 40px 50px 60px;
+    font-size: 2.7rem;
+  }	
+  
+  
+  header nav ul li a{
+    color: white;
+    text-decoration: none;      
+  }
+  
+  .texto-imagen{
+    display: grid;
+    grid-template-areas:
+    "strong img"
+    "strong p";
+    grid-template-columns: 700px auto;
+    grid-template-rows: 400px auto;
+    gap: 10px;
+    .parrafo1{
+      text-align: justify;
+      margin: 0px 10px 10px 10px;
+    }
+    .parrafo2{
+      text-align: justify;
+      grid-area: p;
+      margin: 0px 10px 10px;
+    
+    }
+    .imagen{
+      grid-area: img;
+    
+    }
+  }
+  
+  .imagen1{
+    display: none;
+     
+   }

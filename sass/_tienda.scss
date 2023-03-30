@@ -1,0 +1,67 @@
+h3 {
+    font-size: 1.2rem;    
+ } 
+ 
+ h4 {
+    font-size: 1.2rem;    
+ } 
+ 
+ .talles {
+    font-size: 1.2rem;    
+ } 
+ 
+ .local1{
+   display: flex;
+   justify-content: space-around;
+   .flex{
+     display: block;
+     margin: 0 0 0 20px;
+     
+   }
+   .tienda {
+     text-align: center;  
+  }  
+  form select {
+     transition-duration: 0.5s;
+     padding: 10px 5px 10px 5px;
+     font-size: 1.0rem;
+     border-radius: 8px;
+     color: $rojocuarteto ;
+     border-bottom: $rojocuarteto ;
+         
+  }
+  form select:hover{
+     background-color: $rojocuarteto ;
+     color: white;
+   }
+ }
+   
+ 
+ 
+ 
+ 
+ footer form input{
+    border: right 20px;
+    background-color: black;
+    color: white;
+    font-size: 1.2rem;
+    width: 10rem;
+    height: 10rem;
+        
+ }
+ 
+ .carrito {
+   transition-duration: 0.5s;
+   padding: 20px 10px 20px 10px;
+   border-radius: 8px;
+   color: $rojocuarteto ;
+   border-bottom: $rojocuarteto ;
+   margin: 0 0 10px 20px;
+   .carrito:hover{
+     background-color:$rojocuarteto ;
+     color: white;
+     
+     
+   } 
+   
+ } 

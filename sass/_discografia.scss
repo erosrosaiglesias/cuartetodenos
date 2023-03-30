@@ -1,0 +1,22 @@
+h2 {
+    background-color: rgb(184 158 183);
+    color: black;
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 60px 0px 30px 0px; 
+  
+  }
+  
+  .disco{
+    display: grid;
+    grid-template-areas:
+    "imagen1 imagen2 imagen3 imagen4"
+    "imagen1 imagen2 imagen3 imagen4"
+    "imagen1 imagen2 imagen3 imagen4"
+    "imagen1 imagen2 imagen3 imagen4"
+    "imagen1";
+    grid-template-columns: 350px 350px 350px 350px;
+    grid-template-rows: 350px 350px 350px 350px 350px;
+    gap: 10px;
+    justify-content: center;
+  }
