@@ -13,15 +13,15 @@ h1 {
   
   .texto-imagen{
     display: grid;
-    grid-template-areas:
-    "strong img"
-    "strong p";
-    grid-template-columns: 700px auto;
-    grid-template-rows: 400px auto;
+    grid-template-areas: "strong p";
+    grid-template-columns: 700px 700px;
     gap: 10px;
-    .parrafo1{
+  }
+
+  .parrafo1{
       text-align: justify;
-      margin: 0px 10px 10px 10px;
+      grid-area: strong;
+      margin: 0px 10px 10px;
     }
     .parrafo2{
       text-align: justify;
@@ -29,13 +29,10 @@ h1 {
       margin: 0px 10px 10px;
     
     }
-    .imagen{
-      grid-area: img;
-    
-    }
-  }
   
   .imagen1{
     display: none;
      
    }
+
+ 

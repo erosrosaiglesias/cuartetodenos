@@ -74,7 +74,7 @@ h2 {
   border-bottom: rgb(228, 60, 47);
 }
 .ticket1 form select:hover {
-  background-color: rojocuarteto;
+  background-color:rgb(228, 60, 47) ;
   color: white;
 }
 
@@ -135,7 +135,7 @@ footer form input {
   border-bottom: rgb(228, 60, 47);
   margin: 0 0 10px 20px;
 }
-.carrito .carrito:hover {
+.carrito:hover {
   background-color: rgb(228, 60, 47);
   color: white;
 }
