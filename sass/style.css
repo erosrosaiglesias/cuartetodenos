@@ -13,18 +13,18 @@ header nav ul li a {
 
 .texto-imagen {
   display: grid;
-  grid-template-areas: "strong img" "strong p";
-  grid-template-columns: 700px auto;
-  grid-template-rows: 400px auto;
+  grid-template-areas: "parrafo1 parrafo2";
+  grid-template-columns: 750px 750px;
   gap: 10px;
 }
 .texto-imagen .parrafo1 {
   text-align: justify;
-  margin: 0px 10px 10px 10px;
+  grid-area: parrafo1;
+  margin: 0px 0px 10px 10px;
 }
 .texto-imagen .parrafo2 {
   text-align: justify;
-  grid-area: p;
+  grid-area: parrafo2;
   margin: 0px 10px 10px;
 }
 .texto-imagen .imagen {

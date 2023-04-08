@@ -13,19 +13,19 @@ h1 {
   
   .texto-imagen{
     display: grid;
-    grid-template-areas: "strong p";
-    grid-template-columns: 700px 700px;
+    grid-template-areas: "parrafo1 parrafo2";
+    grid-template-columns: 750px 750px;
     gap: 10px;
   }
 
   .parrafo1{
       text-align: justify;
-      grid-area: strong;
-      margin: 0px 10px 10px;
+      grid-area: parrafo1;
+      margin: 0px 0px 10px 10px;
     }
     .parrafo2{
       text-align: justify;
-      grid-area: p;
+      grid-area: parrafo2;
       margin: 0px 10px 10px;
     
     }
