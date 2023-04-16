@@ -20,3 +20,18 @@ h2 {
     gap: 10px;
     justify-content: center;
   }
+
+  .disco-titulo {
+    height: 40px;
+    width: 300px;
+    text-align: center;
+    color: white;
+  }
+  
+  .disco-titulo-decotarion-none {
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    .disco-titulo-decotarion-none:hover {
+      transform: scale(1.1);
+    }
+  }

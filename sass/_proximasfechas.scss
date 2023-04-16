@@ -10,24 +10,60 @@
       .imagen-prox{
           text-align: center;  
        }
-       form select {
-        transition-duration: 0.5s;
-        padding: 10px 5px 10px 5px;
-        font-size: 1.0rem;
-        border-radius: 8px;
-        color: $rojocuarteto ;
-        border-bottom: $rojocuarteto ;
-            
-     }
-     form select:hover{
-        background-color: $rojocuarteto;
-        color: white;
-      }
+       
+  }
+
+  .video {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 30px 40px 30px;  
+    
+  }
+  .dropdown{
+    background-color:  rgb(184, 158, 183);
+    color: #fff; 
+    transition: 0.4s ease;
+    border-radius: 5px;
+    .dropdown:hover{
+      box-shadow: 0px 0px 30px  rgb(184, 158, 183);
+          
+    }
+  }
+
+  .dropdown:hover > .dropdown-menu{
+    opacity: 1;
+  }
+  .btn2{
+    color: #fff;
+    border: none;
+    background-color: transparent;   
+  }
+  
+  .dropdown-menu{
+    transition: 0.2s linear;
+    opacity: 0;
+    background-color:  rgb(184, 158, 183);
+    width: 175px;
+    box-shadow: 0px 0px 30px  rgb(184, 158, 183) ;
+        
+  }
+  
+  .dropdown-item{
+    transition-duration: 0.2 linear;
+    .dropdown-item:hover{
+      background-color: black;
+      color: #fff;      
+    }
+        
+  }
+  
+  .imagen-prox1{
+    transition: all 0.2s ease-in;
+    .imagen-prox1:hover {
+      transform: scale(1.03);
+    }
   }
   
   
   
   
-  .agosto{
-    margin: 5px 0px 5px;
-  }

@@ -5,17 +5,21 @@
          <meta charset="UTF-8">
          <meta http-equiv="X-UA-Compatible" content="IE=edge">
          <meta name="viewport" content="width=device-width, initial-scale=1.0">
-         <link rel="stylesheet" href="../sass/style.css"> <!-- link para vincularme a css -->
          <link rel="shortcut icon" href="../Imagenes/Logo1.jfif" type="image/x-icon">   <!-- con la etiqueta link.favicon le doy un logo a la pestana del navegador, en href inserto la imagen, la busco con ./ -->
+         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+         <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+         <link rel="stylesheet" href="../sass/style.css"> <!-- link para vincularme a css -->
          <meta name="description" content="Conocemos las proximas fechas de la banda a nivel nacional e internacional" ><!-- descripcion de la pagina para google -->
          <meta name="keywords" content="Rock, Uruguay, Cuarteto, Nos, Banda, Conciertos, Merchandising, Latin Grammy, Raro" ><!-- palabras clave para que me encuentre google -->
-         <title>CuartetodeNos</title>
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+         <title>Cuarteto de Nos - Banda de rock uruguayo</title>
     </head>
 
     <body>
         <div>
             <main>  
-                 <h1>Cuarteto de Nos</h1>
+                <h1><strong>Cuarteto de Nos</strong></h1>
             </main>
         </div>
     
@@ -31,17 +35,15 @@
             </nav>
         </header>
 
-            <h2>Proximas fechas </h2>
+            <h2><strong>Proximas fechas</strong></h2>
 
             <br><br>
 
          <div class="ticket1">
 
-              <div class="flex1">
+              <div class="flex">
 
-                 <h3 class="ticket"> E Ticket</h3>
-
-                 <form>
+                 <!-- <form>
                      <select name="Ticket" class="ticket2">
                          <option value="Uruguay">Uruguay</option>
                          <option value="Argentina">Argentina</option>
@@ -56,7 +58,27 @@
                          <option value="Alemania">Alemania</option>
                          <option value="Inglaterra">Inglaterra</option>
                      </select>
-                 </form>
+                 </form> -->
+             <div class="dropdown">
+                    <button class="btn btn dropdown-toggle" href="" role="button" id="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      E-Ticket
+                    </button>
+                  
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" >
+                      <li><a class="dropdown-item" href="Uruguay">Uruguay</a></li>
+                      <li><a class="dropdown-item" href="Argentina">Argentina</a></li>
+                      <li><a class="dropdown-item" href="Mexico">Mexico</a></li>
+                      <li><a class="dropdown-item" href="El Salvador">El Salvador</a></li>
+                      <li><a class="dropdown-item" href="Colombia">Colombia</a></li>
+                      <li><a class="dropdown-item" href="Venezuela">Venezuela</a></li>
+                      <li><a class="dropdown-item" href="Guatemala">Guatemala</a></li>
+                      <li><a class="dropdown-item" href="Chile">Chile</a></li>
+                      <li><a class="dropdown-item" href="España">España</a></li>
+                      <li><a class="dropdown-item" href="Francia">Francia</a></li>
+                      <li><a class="dropdown-item" href="Alemania">Alemania</a></li>
+                      <li><a class="dropdown-item" href="Inglaterra">Inglaterra</a></li>       
+                    </ul>
+                  </div>
 
              </div>
     
@@ -68,32 +90,36 @@
          </div>
 
            
-         <br><br>
+                <br><br>
 
-         <footer class="video">
-            <iframe width="460" height="215" src="https://www.youtube.com/embed/RwFe2VxuDuc" title="YouTube video player" frameborder="20" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  
+                <footer class="video">
+                    <iframe width="460" height="215" src="https://www.youtube.com/embed/RwFe2VxuDuc" title="YouTube video player" frameborder="20" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  
 
-            <iframe width="460" height="215" src="https://www.youtube.com/embed/K0rGpfheZxI" title="YouTube video player" frameborder="20" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <iframe width="460" height="215" src="https://www.youtube.com/embed/K0rGpfheZxI" title="YouTube video player" frameborder="20" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-            <iframe width="460" height="215" src="https://www.youtube.com/embed/NmulfE51Pwk" title="YouTube video player" frameborder="20" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-         </footer>
+                    <iframe width="460" height="215" src="https://www.youtube.com/embed/NmulfE51Pwk" title="YouTube video player" frameborder="20" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </footer>
 
-         
-         <h3 class="seguinos" >Seguinos</h3>
+                
+                <h3 class="seguinos" >Seguinos</h3>
 
-         <article class="contacto">
-                <a class="contacto2" href="https://www.instagram.com/cuartetodenosok/?hl=es-la">
-                <img src="../Imagenes/instagram.png" width="50" height="50" alt="Instagram"></a>
-                <a class="contacto2" href="https://www.facebook.com/people/Cuarteto-de-Nos/100044328944720/">
-                <img src="../Imagenes/facebook.png" width="50" height="50" alt="Facebook"></a>
-                <a class="contacto2" href="https://www.youtube.com/user/cuartetodenos">
-                <img src="../Imagenes/yotube.png" width="50" height="50" alt="YouTube"></a>
-                <a class="contacto2" href="https://open.spotify.com/artist/13JJKrUewC1CJYmIDXQNoH">
-                <img src="../Imagenes/spoty.png" width="50" height="50" alt="Spotify"></a>
-                <a class="contacto2" href="https://www.tiktok.com/discover/el-cuarteto-de-nos?lang=es">
-                <img src="../Imagenes/tiktok.png" width="50" height="50" alt="TikTok"></a>
-                </a>
-         </article>
+                <article class="contacto">
+                    <a class="contacto2" href="https://www.instagram.com/cuartetodenosok/?hl=es-la">
+                    <img class="redes-sociales" src="../Imagenes/instagram.png" width="50" height="50" alt="Instagram"></a>
+                    <a class="contacto2" href="https://www.facebook.com/people/Cuarteto-de-Nos/100044328944720/">
+                    <img class="redes-sociales" src="../Imagenes/facebook.png" width="50" height="50" alt="Facebook"></a>
+                    <a class="contacto2" href="https://www.youtube.com/user/cuartetodenos">
+                    <img class="redes-sociales" src="../Imagenes/yotube.png" width="50" height="50" alt="YouTube"></a>
+                    <a class="contacto2" href="https://open.spotify.com/artist/13JJKrUewC1CJYmIDXQNoH">
+                    <img class="redes-sociales" src="../Imagenes/spoty.png" width="50" height="50" alt="Spotify"></a>
+                    <a class="contacto2" href="https://www.tiktok.com/discover/el-cuarteto-de-nos?lang=es">
+                    <img class="redes-sociales" src="../Imagenes/tiktok.png" width="50" height="50" alt="TikTok"></a>
+                    </a>
+            </article>
+
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+                <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
 
 
     </body>

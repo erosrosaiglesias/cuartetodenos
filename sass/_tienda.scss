@@ -1,10 +1,3 @@
-h3 {
-    font-size: 1.2rem;    
- } 
- 
- h4 {
-    font-size: 1.2rem;    
- } 
  
  .talles {
     font-size: 1.2rem;    
@@ -18,51 +11,75 @@ h3 {
      margin: 0 0 0 20px;
      
    }
-   .tienda {
+   .local1 .tienda {
      text-align: center;  
   }  
-  form select {
-     transition-duration: 0.5s;
-     padding: 10px 5px 10px 5px;
-     font-size: 1.0rem;
-     border-radius: 8px;
-     color: $rojocuarteto ;
-     border-bottom: $rojocuarteto ;
-         
+    .local1 form select{
+      transition-duration: 0.5s;
+      padding: 10px 5px 10px 5px;
+      font-size: 1.0rem;
+      border-radius: px;
+      color: $violetacuarteto-letra ;
+      border-bottom: $violetacuarteto ;
+          
+    }
+  .local1 form select:hover{
+    background-color: $violetacuarteto;
+    box-shadow: $violetacuarteto;
+    color:  #fff; 
+    }
   }
-  form select:hover{
-     background-color: $rojocuarteto ;
-     color: white;
-   }
- }
    
  
- 
- 
- 
- footer form input{
-    border: right 20px;
-    background-color: black;
-    color: white;
-    font-size: 1.2rem;
-    width: 10rem;
-    height: 10rem;
-        
+ .local1 form select:hover > .local1 form select option{
+  opacity: 1;
+}
+
+.paises{
+  color: #fff;
+  border: none;
+  background-color: transparent;   
+}
+
+.local1 form select option{
+  transition-duration: 0.5s;
+  padding: 10px 5px 10px 5px;
+  font-size: 1rem;
+  border-radius: 5px;
+  color: $violetacuarteto-letra;
+  border-bottom:  $violetacuarteto;
+}
+
+.local1 form select option:hover{
+  background-color:  black;
+  box-shadow: 0px 0px 30px  $violetacuarteto;
+  color:  #fff; 
+}
+
+
+.carrito {
+  font-size: 0.9rem;
+  transition-duration: 0.5s;
+  padding: 20px 20px 20px 20px;
+  border-radius: 8px;
+  color: $violetacuarteto-letra;
+  border-bottom: $violetacuarteto;
+  margin: 30px 693px 10px 682px;
+  .carrito:hover {
+   background-color: $violetacuarteto;
+   box-shadow: 0px 0px 30px $violetacuarteto;
+   color: white;
  }
- 
- .carrito {
-   transition-duration: 0.5s;
-   padding: 20px 10px 20px 10px;
-   border-radius: 8px;
-   color: $rojocuarteto ;
-   border-bottom: $rojocuarteto ;
-   margin: 0 0 10px 20px;
-   .carrito:hover{
-      background-color:$rojocuarteto ;
-      color: white;
-      
-    } 
- } 
+}
+
+
+.remera {
+  transition: all 0.3s ease-in-out;
+  .remera:hover {
+   transform: scale(0.9);
+ }
+}
+
 
  
  

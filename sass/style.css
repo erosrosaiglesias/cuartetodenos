@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap");
+
+/* Index */
+
+
 h1 {
   text-align: center;
   background-color: black;
@@ -11,6 +15,24 @@ header nav ul li a {
   text-decoration: none;
 }
 
+
+h2 {
+  background-color: rgb(184, 158, 183);
+  color: black;
+  text-align: center;
+  font-size: 1.3rem;
+  margin: 60px 0px 30px 0px;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+}
+
+/* bibliografia */
 .texto-imagen {
   display: grid;
   grid-template-areas: "parrafo1 parrafo2";
@@ -27,21 +49,12 @@ header nav ul li a {
   grid-area: parrafo2;
   margin: 0px 10px 10px;
 }
-.texto-imagen .imagen {
-  grid-area: img;
-}
 
-.imagen1 {
-  display: none;
-}
 
-h2 {
-  background-color: rgb(184, 158, 183);
-  color: black;
-  text-align: center;
-  font-size: 1.3rem;
-  margin: 60px 0px 30px 0px;
-}
+
+
+
+/* Discografia */
 
 .disco {
   display: grid;
@@ -52,43 +65,23 @@ h2 {
   justify-content: center;
 }
 
-.ticket1 {
-  display: flex;
-  justify-content: space-around;
-}
-.ticket1 .flex1 {
-  display: block;
-}
-.ticket1 .ticket {
-  text-align: left;
-}
-.ticket1 .imagen-prox {
+.disco-titulo {
+  height: 40px;
+  width: 300px;
   text-align: center;
-}
-.ticket1 form select {
-  transition-duration: 0.5s;
-  padding: 10px 5px 10px 5px;
-  font-size: 1rem;
-  border-radius: 8px;
-  color: rgb(228, 60, 47);
-  border-bottom: rgb(228, 60, 47);
-}
-.ticket1 form select:hover {
-  background-color:rgb(228, 60, 47) ;
   color: white;
 }
-
-.agosto {
-  margin: 5px 0px 5px;
+.disco-titulo-decotarion-none {
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
 }
 
-h3 {
-  font-size: 1.2rem;
+.disco-titulo-decotarion-none:hover {
+  transform: scale(1.1);
 }
 
-h4 {
-  font-size: 1.2rem;
-}
+
+/* Tienda */
 
 .talles {
   font-size: 1.2rem;
@@ -109,36 +102,131 @@ h4 {
   transition-duration: 0.5s;
   padding: 10px 5px 10px 5px;
   font-size: 1rem;
-  border-radius: 8px;
-  color: rgb(228, 60, 47);
-  border-bottom: rgb(228, 60, 47);
+  border-radius: 5px;
+  color:  rgb(118, 94, 118);
+  border-bottom:  rgb(184, 158, 183);
 }
-.local1 form select:hover {
-  background-color: rgb(228, 60, 47);
-  color: white;
+.local1 form select:hover{
+  background-color:  rgb(184, 158, 183);
+  box-shadow: 0px 0px 30px  rgb(184, 158, 183);
+  color:  #fff; 
 }
 
-footer form input {
-  border: right 20px;
-  background-color: black;
-  color: white;
-  font-size: 1.2rem;
-  width: 10rem;
-  height: 10rem;
+.local1 form select:hover > .local1 form select option{
+  opacity: 1;
 }
+
+.paises{
+  color: #fff;
+  border: none;
+  background-color: transparent;   
+}
+
+.local1 form select option{
+  transition-duration: 0.5s;
+  padding: 10px 5px 10px 5px;
+  font-size: 1rem;
+  border-radius: 5px;
+  color:  rgb(118, 94, 118);
+  border-bottom:  rgb(184, 158, 183);
+}
+
+.local1 form select option:hover{
+  background-color:  black;
+  box-shadow: 0px 0px 30px  rgb(184, 158, 183);
+  color:  #fff; 
+}
+
 
 .carrito {
+  font-size: 0.9rem;
   transition-duration: 0.5s;
-  padding: 20px 10px 20px 10px;
+  padding: 20px 20px 20px 20px;
   border-radius: 8px;
-  color: rgb(228, 60, 47);
-  border-bottom: rgb(228, 60, 47);
-  margin: 0 0 10px 20px;
+  color: rgb(118, 94, 118);
+  border-bottom: rgb(184, 158, 183);
+  margin: 30px 693px 10px 682px;
 }
 .carrito:hover {
-  background-color: rgb(228, 60, 47);
+  background-color: rgb(184, 158, 183);
+  box-shadow: 0px 0px 30px rgb(184, 158, 183);
   color: white;
 }
+
+.remera {
+  transition: all 0.3s ease-in-out;
+}
+
+.remera:hover {
+  transform: scale(0.9);
+}
+
+
+/* proximas fechas */
+
+
+.dropdown{
+  background-color:  rgb(184, 158, 183);
+  color: #fff; 
+  transition: 0.4s ease;
+  border-radius: 5px;
+}
+
+.dropdown:hover{
+  box-shadow: 0px 0px 30px  rgb(184, 158, 183);
+      
+}
+
+.dropdown:hover > .dropdown-menu{
+  opacity: 1;
+}
+.btn2{
+  color: #fff;
+  border: none;
+  background-color: transparent;   
+}
+
+.dropdown-menu{
+  transition: 0.2s linear;
+  opacity: 0;
+  background-color:  rgb(184, 158, 183);
+  width: 175px;
+  box-shadow: 0px 0px 30px  rgb(184, 158, 183) ;
+      
+}
+
+.dropdown-item{
+  transition-duration: 0.2 linear;
+      
+}
+.dropdown-item:hover{
+  background-color: black;
+  color: #fff;      
+}
+
+.ticket1 {
+  display: flex;
+  justify-content: space-around;
+}
+.ticket1 .flex1 {
+  display: block;
+}
+.ticket1 .ticket {
+  text-align: left;
+}
+.ticket1 .imagen-prox {
+  text-align: center;
+}
+
+.imagen-prox1{
+  transition: all 0.2s ease-in;
+}
+
+.imagen-prox1:hover {
+  transform: scale(1.03);
+}
+
+
 
 /* variable */
 /* Inicio */
@@ -163,11 +251,12 @@ header nav ul {
 
 header nav ul li {
   list-style: none;
-  display: inline-block;
+  display: inline-block;     
+  background-color: black;  
 }
 
 header nav ul li a:hover {
-  color: rgb(228, 60, 47);
+  color:  rgb(184, 158, 183);
 }
 
 .img {
@@ -189,9 +278,13 @@ header nav ul li a:hover {
   text-align: center;
   margin: 0px 0px 30px;
 }
+
+
 .contacto .contacto2 {
   margin: 20px 10px 30px 10px;
 }
+
+
 
 .seguinos {
   background-color: rgb(184, 158, 183);
@@ -200,6 +293,47 @@ header nav ul li a:hover {
   font-size: 1.2rem;
   margin: 60px 0px 30px 0px;
 }
+
+.text-center{
+  padding: 20px 300px;
+}
+
+.contactanos{
+  background-color: rgb(184, 158, 183);
+  color: black;
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 0px 0px 30px 0px;
+}
+
+.enviar {
+  font-size: 1.0rem;
+  transition-duration: 0.5s;
+  padding: 10px 30px 10px 30px;
+  border-radius: 8px;
+  color: rgb(118, 94, 118);
+  border-bottom: rgb(184, 158, 183);
+  margin: 20px 0 10px 20px;
+}
+.enviar:hover {
+  background-color: rgb(184, 158, 183);
+  box-shadow: 0px 0px 30px rgb(184, 158, 183) ;
+  color: white;
+}
+
+.color-linea{
+  color: rgb(184, 158, 183);
+}
+
+.redes-sociales{
+  transition: all 0.3s ease-in-out;
+}
+
+.redes-sociales:hover {
+  transform: scale(1.3);
+}
+           
+
 
 /* MEDIA QUERIES */
 /* Tablet */
@@ -236,6 +370,11 @@ header nav ul li a:hover {
     flex-direction: column;
     align-items: center;
     gap: 8px;
+  }
+
+  .text-center {
+    padding: 0px 30px;
+
   }
   /* Bibliografia */
   h2 {
@@ -293,8 +432,13 @@ header nav ul li a:hover {
     display: inline-block;
     text-align: center;
   }
-  .carrito {
-    display: grid;
-    justify-content: center;
-  }
+  /* .carrito {
+    font-size: 0.9rem;
+  transition-duration: 0.5s;
+  padding: 20px 20px 20px 20px;
+  border-radius: 8px;
+  color: rgb(228, 60, 47);
+  border-bottom: rgb(228, 60, 47);
+  margin: 30px 693px 10px 682px;
+  } */
 }/*# sourceMappingURL=style.css.map */
