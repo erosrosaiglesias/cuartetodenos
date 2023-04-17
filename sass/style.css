@@ -337,8 +337,69 @@ header nav ul li a:hover {
 
 /* MEDIA QUERIES */
 /* Tablet */
+
+@media only screen and (max-width: 768px) {
+ 
+  
+/* Index */
+.media{
+  width: 727px;
+  height: 450px;
+}
+
+.video{
+  display: block;
+  text-align: center;
+}
+
+/* Bibliografia */
+.text-center{
+  padding: 20px 130px;
+}
+
+.texto-imagen{
+  display: block;
+  text-align: center;
+}
+.texto-imagen .parrafo1{
+  margin: 0px 10px 10px 10px;
+}
+
+/* discografia */
+
+.disco {
+  display: grid;
+  grid-template-areas: "imagen1 imagen2" "imagen1 imagen2 " "imagen1 imagen2" "imagen1 imagen2 ""imagen1 imagen2 ""imagen1 imagen2 ""imagen1 imagen2 ""imagen1 imagen2 " "imagen1";
+  grid-template-columns: 350px 350px ;
+  grid-template-rows: auto;
+  gap: 10px;
+  justify-content: center;
+}
+
+.disco-titulo-decotarion-none{
+  text-align: center;
+}
+
+/* Proximas fechas */
+
+.imagen-prox1 {
+  width: 600px;
+  height: 450px;
+  
+}
+
+
+  .carrito{
+    margin: 10px 244px 0px 244px;
+    padding: 15px 70px;
+    height: 101.6px;
+    width: 280.2px;
+}
+    
+    
+  }
+
 /* Mobile */
-/* Index.html Inicio  */
 @media (min-width: 577px) {
   .img1 {
     display: none;
@@ -348,17 +409,28 @@ header nav ul li a:hover {
   h1 {
     display: block;
     align-items: center;
-    background-color: aliceblue;
+    background-color: rgb(184, 158, 183);
     color: black;
     padding: 10px 10px 10px 10px;
   }
-  header nav ul {
+  header nav ul{
     display: flex;
     flex-direction: column;
     align-items: center;
     font-size: 1.8rem;
-    margin: 20px 0 20px 0;
+    margin: 20px 0px 20px 0px;
+    padding: 0%;
   }
+  .index {
+    width: 576px;
+    height: 216px;
+  }
+
+  .index1 {
+    width: 576px;
+    height: 216px;
+  }
+
   #carouselExampleFade {
     display: none;
   }
@@ -372,16 +444,12 @@ header nav ul li a:hover {
     gap: 8px;
   }
 
-  .text-center {
-    padding: 0px 30px;
-
-  }
   /* Bibliografia */
   h2 {
     display: block;
     align-items: center;
     font-size: 1.8rem;
-    background-color: aliceblue;
+    background-color: rgb(184, 158, 183);
     color: black;
     padding: 10px 10px 10px 10px;
     margin: 0 0 0 0;
@@ -391,11 +459,12 @@ header nav ul li a:hover {
     flex-direction: column;
     align-items: center;
   }
-  footer img {
-    width: 550px;
-    height: 310px;
-    margin: 0px 10px 10px 10px;
+
+  .texto-imagen .parrafo1{
+    margin:0px 10px 10px;;
   }
+
+
   /* Discografia */
   .disco {
     display: flex;
@@ -441,4 +510,9 @@ header nav ul li a:hover {
   border-bottom: rgb(228, 60, 47);
   margin: 30px 693px 10px 682px;
   } */
-}/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+
+.carrito{
+  margin: 10px 40% 10px 40%;
+}
+}
