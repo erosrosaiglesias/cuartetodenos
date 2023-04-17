@@ -32,6 +32,11 @@ h4 {
   font-size: 1.2rem;
 }
 
+.media{
+  width: 1479px;
+  height: 660px;
+}
+
 /* bibliografia */
 .texto-imagen {
   display: grid;
@@ -338,11 +343,16 @@ header nav ul li a:hover {
 /* MEDIA QUERIES */
 /* Tablet */
 
-@media only screen and (max-width: 768px) {
+@media  (max-width: 768px) { /* heigt 476 */
  
   
 /* Index */
 .media{
+  width: 727px;
+  height: 450px;
+}
+
+.media1{
   width: 727px;
   height: 450px;
 }
@@ -396,8 +406,7 @@ header nav ul li a:hover {
     width: 280.2px;
 }
     
-    
-  }
+    }
 
 /* Mobile */
 @media (min-width: 577px) {
@@ -405,7 +414,7 @@ header nav ul li a:hover {
     display: none;
   }
 }
-@media (max-width: 576px) {
+@media (max-width: 576px) {   /* heigt 476 */
   h1 {
     display: block;
     align-items: center;
@@ -442,6 +451,11 @@ header nav ul li a:hover {
     flex-direction: column;
     align-items: center;
     gap: 8px;
+  }
+
+  .media{
+    width: 460px;
+    height: 215px;
   }
 
   /* Bibliografia */
@@ -513,6 +527,6 @@ header nav ul li a:hover {
 /*# sourceMappingURL=style.css.map */
 
 .carrito{
-  margin: 10px 40% 10px 40%;
+  margin: 10px 148px 10px;
 }
 }
