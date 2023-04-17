@@ -1,0 +1,61 @@
+header nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.4rem;
+    }
+    
+    header nav ul li{
+     list-style: none;
+     display: inline-block;
+  }
+  header nav ul li a {
+   color: white;
+   text-decoration: none;
+ }
+  header nav ul li a:hover{
+     color: $violetacuarteto; 
+   }
+ 
+   h1 {
+     text-align: center;
+     background-color: black;
+     padding: 30px 40px 50px 60px;
+     font-size: 2.7rem;
+   }
+   
+   h2 {
+     background-color: $violetacuarteto;
+     color: black;
+     text-align: center;
+     font-size: 1.3rem;
+     margin: 60px 0px 30px 0px;
+   }
+   
+   h3 {
+     font-size: 1.2rem;
+   }
+   
+   h4 {
+     font-size: 1.2rem;
+   }
+ 
+   .media{   /* carrusel */
+     width: 1479px;
+     height: 660px;
+   }
+ 
+   .contacto{
+     text-align: center;
+     margin: 0px 0px 30px;
+     .contacto2{
+       margin: 20px 10px 30px 10px
+     }
+   }
+   
+   .seguinos {
+     background-color: $violetacuarteto;
+     color: black;
+     text-align: center;
+     font-size: 1.2rem;
+     margin: 60px 0px 30px 0px; 
+   }
