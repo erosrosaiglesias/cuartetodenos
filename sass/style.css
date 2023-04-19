@@ -457,6 +457,11 @@ header nav ul li a:hover {
     height: 215px;
   }
 
+  .media1{
+    width: 460px;
+    height: 215px;
+  }
+
   /* Bibliografia */
   h2 {
     display: block;

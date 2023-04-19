@@ -49,11 +49,16 @@ body {
 /* MEDIA QUERIES */
 /* Tablet */
 
-@media only screen and (max-width: 768px) {
+@media  (max-width: 768px) { /* heigt 476 */
  
   
   /* Index */
   .media{
+    width: 727px;
+    height: 450px;
+  }
+  
+  .media1{
     width: 727px;
     height: 450px;
   }
@@ -107,8 +112,7 @@ body {
       width: 280.2px;
   }
       
-      
-    }
+      }
   
   /* Mobile */
   @media (min-width: 577px) {
@@ -116,7 +120,7 @@ body {
       display: none;
     }
   }
-  @media (max-width: 576px) {
+  @media (max-width: 576px) {   /* heigt 476 */
     h1 {
       display: block;
       align-items: center;
@@ -153,6 +157,16 @@ body {
       flex-direction: column;
       align-items: center;
       gap: 8px;
+    }
+  
+    .media{
+      width: 460px;
+      height: 215px;
+    }
+  
+    .media1{
+      width: 460px;
+      height: 215px;
     }
   
     /* Bibliografia */
@@ -224,7 +238,6 @@ body {
   /*# sourceMappingURL=style.css.map */
   
   .carrito{
-    margin: 10px 40% 10px 40%;
+    margin: 10px 148px 10px;
   }
   }
-
