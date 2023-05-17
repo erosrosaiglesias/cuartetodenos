@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": ".gitignore"
+		},
+		{
+			"path": "Imagenes"
+		},
+		{
+			"path": "index.html"
+		},
+		{
+			"path": "paginas"
+		},
+		{
+			"path": "readme"
+		},
+		{
+			"path": "sass"
+		}
+	]
+}
